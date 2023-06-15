@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    background-color: #000050;
+}
+
+.section1 {
+    height: 300px;
+    color: white;
+    margin: 0px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+}
+.section2 {
+    background-color: white;
+    height: 300px;
+}
+
+.headertwo {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color:black;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subcaptions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.subcaptions-1 {
+  width: 140px;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
